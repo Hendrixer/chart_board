@@ -39,11 +39,11 @@ function redraw(animation){
 			color : "#2c9c69"
 		},
 		{
-			value : 40,
+			value : 35,
 			color : "#dbba34"
 		},
 		{
-			value : 10,
+			value : 15,
 			color : "#c62f29"
 		}
 
