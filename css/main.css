@@ -365,6 +365,63 @@ header .button {
     /* Style adjustments for high resolution devices */
 }
 
+@media only screen and (min-width:300px){
+    .container {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+ 
+@media only screen and (min-width:600px){
+    .container {
+        width: 580px;
+        margin: 0 auto;
+    }
+    .third {
+        float: left;
+        width: 47.5%;
+        margin-left: 5%;
+    }
+    .third:first-child {
+        margin-left: 0;
+    }
+    .third:last-child {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+ 
+@media only screen and (min-width:960px){
+    .container {
+        width: 940px;
+    }
+    .third {
+        float: left;
+        width: 30%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .third:first-child {
+        margin-left: 0;
+    }
+    .third:last-child {
+        margin-right: 0;
+        margin-left: 2.5%;
+        width: 30%;
+    }
+}
+@media only screen and (min-width:1140px){
+    .container {
+        width: 1120px;
+    }
+}
+@media only screen and (min-width:1360px){
+    .container {
+        width: 1300px;
+    }
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
