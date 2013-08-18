@@ -189,10 +189,11 @@ header .button {
     top: 3px;
     content: "";
 }
-.ship:before { background-color: #637b85; }
-.rework:before { background-color: #2c9c69; }
-.admin:before { background-color: #dbba34; }
-.prod:before { background-color: #c62f29; }
+.bay:before { background-color: #c62f29; }   
+.chi:before { background-color: #2c9c69; }
+.ny:before { background-color: #dbba34; }    
+.den:before { background-color: #637b85; }
+.other:before { background-color: #7e1453;}
 
 .widget.doughnut .status {
     display: block;

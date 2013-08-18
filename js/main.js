@@ -31,24 +31,28 @@ function redraw(animation){
 	}
 	var data = [
 		{
-			value: 20,
-			color:"#637b85"
+			value: 40,
+			color:"#c62f29"
 		},
 		{
-			value : 30,
+			value : 17,
 			color : "#2c9c69"
 		},
 		{
-			value : 35,
+			value : 11,
 			color : "#dbba34"
 		},
 		{
-			value : 15,
-			color : "#c62f29"
+			value : 6,
+			color : "#637b85"
+		},
+		{
+			value: 10,
+			color: "#7e1453"
 		}
 
 	];
-	var canvas = document.getElementById("hours");
+	var canvas = document.getElementById("location");
 	var ctx = canvas.getContext("2d");
 	new Chart(ctx).Doughnut(data, options);
 
@@ -71,12 +75,12 @@ function redraw(animation){
 			}
 		]
 	}
-	var canvas = document.getElementById("shipments");
+	var canvas = document.getElementById("hours");
 	var ctx = canvas.getContext("2d");
 	new Chart(ctx).Line(data, options); 
 
 	var data = {
-		labels : ["Helpful", "Fiendly", "Kind", "Rude", "Slow", "Frustrating"],
+		labels : ["Javascript", "Ruby", "PHP", "iOS", "Android", ".ASP/.NET"],
 		datasets : [
 			{
 				fillColor : "rgba(220,220,220,0.5)",
@@ -87,7 +91,7 @@ function redraw(animation){
 			}
 		]
 	}
-	var canvas = document.getElementById("departments");
+	var canvas = document.getElementById("lang");
 	var ctx = canvas.getContext("2d");
 	new Chart(ctx).Radar(data, options);
 
