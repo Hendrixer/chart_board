@@ -75,6 +75,22 @@ function redraw(animation){
 	var ctx = canvas.getContext("2d");
 	new Chart(ctx).Line(data, options); 
 
+	var data = {
+		labels : ["Helpful", "Fiendly", "Kind", "Rude", "Slow", "Frustrating"],
+		datasets : [
+			{
+				fillColor : "rgba(220,220,220,0.5)",
+	            strokeColor : "#637b85",
+	            pointColor : "#dbba34",
+	            pointStrokeColor : "#637b85",
+	            data : [65,59,90,81,30,56]
+			}
+		]
+	}
+	var canvas = document.getElementById("departments");
+	var ctx = canvas.getContext("2d");
+	new Chart(ctx).Radar(data, options);
+
 }
 size(true);
 
