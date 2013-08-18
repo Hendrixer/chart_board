@@ -217,6 +217,20 @@ header .button {
     background-position: center;
 }
 
+.widget p {
+    margin-top: 0;
+    text-align: center;
+}
+.widget h3 {
+    margin: -12px 0 12px -12px;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    color: #627b86;
+    line-height: 2em;
+    background: #d0dde3;
+}
+
 
 
 
