@@ -56,7 +56,7 @@ function redraw(animation){
 	var ctx = canvas.getContext("2d");
 	new Chart(ctx).Doughnut(data, options);
 
-	var data = {
+/*	var data = {
 		labels : ["Mon", "Tues", "Weds", "Thurs", "Fri", "Sat", "Sun"],
 		datasets : [
 			{
@@ -74,10 +74,39 @@ function redraw(animation){
 	            data : [20,60,42,58,31,21,50]
 			}
 		]
-	}
+	} 
+
+
 	var canvas = document.getElementById("hours");
-	var ctx = canvas.getContext("2d");
-	new Chart(ctx).Line(data, options); 
+	var ctx= canvas.getContext("2d");
+	new Chart(ctx1).Line(data, options); */
+
+	var data = [
+		{
+			value: 31,
+			color:"#c62f29"
+		},
+		{
+			value : 29,
+			color : "#2c9c69"
+		},
+		{
+			value : 20,
+			color : "#dbba34"
+		},
+		{
+			value : 12,
+			color : "#637b85"
+		},
+		{
+			value: 8,
+			color: "#7e1453"
+		}
+
+	];
+	var canvas1 = document.getElementById("schools");
+	var ctx1 = canvas1.getContext("2d");
+	new Chart(ctx1).Doughnut(data, options);
 
 	var data = {
 		labels : ["Javascript", "Ruby", "PHP", "iOS", "Android", ".ASP/.NET"],
@@ -87,13 +116,13 @@ function redraw(animation){
 	            strokeColor : "#637b85",
 	            pointColor : "#dbba34",
 	            pointStrokeColor : "#637b85",
-	            data : [65,59,90,81,30,56]
+	            data : [110,150,30,80,30,15]
 			}
 		]
 	}
-	var canvas = document.getElementById("lang");
-	var ctx = canvas.getContext("2d");
-	new Chart(ctx).Radar(data, options);
+	var canvas2 = document.getElementById("lang");
+	var ctx2 = canvas2.getContext("2d");
+	new Chart(ctx2).Radar(data, options);
 
 }
 size(true);
