@@ -9,6 +9,7 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="5" /> 
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -32,7 +33,6 @@
     <div class="container clearfix">
       <div class="third widget doughnut">
         <h3>Top Hacker School Locations</h3>
-        <p><a href="" class="button">Filter by:</a></p>
         <div class="canvas-container">
           <canvas id="location"></canvas>
           <span class="loc"></span>
@@ -47,9 +47,17 @@
           </ul>
         </div>
       </div>
+       <div class="third widget">
+        <div class="chart-legend">
+          <h3>Programming Languages</h3>
+          <p>based on words mentioned</p>
+        </div>
+        <div class="canvas-container">
+          <canvas id="lang"></canvas>
+        </div>
+      </div>
       <div class="third widget doughnut">
         <h3>Top Hacker Schools</h3>
-        <p><a href="" class="button">Filter by:</a></p>
         <div class="canvas-container">
           <canvas id="schools"></canvas>
           <span class="comp"></span>
@@ -64,20 +72,17 @@
           </ul>
         </div>
       </div>
-      <div class="third widget">
-        <div class="chart-legend">
-          <h3>Programming Languages</h3>
-          <p>based on words mentioned</p>
-          <p><a href="" class="button">Track another word</a></p>
-        </div>
-        <div class="canvas-container">
-          <canvas id="lang"></canvas>
-        </div>
-      </div>
     </div>
     <div class="push"></div>
   </div>
   <footer>
+    <div class="container clearfix">
+      <ul>
+        <li>Contact</li>
+        <li>Email</li>
+        <li>yo yo yo</li>
+      </ul>  
+    </div>
   </footer>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -85,7 +90,7 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
   <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -93,6 +98,6 @@
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X');ga('send','pageview');
-  </script>
+  </script>  -->
 </body>
 </html>

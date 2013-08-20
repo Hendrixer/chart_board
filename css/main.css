@@ -281,7 +281,13 @@ header .button {
     font-weight: 400;
 }
 
-
+footer {
+    text-align: center;
+    background: #637b85;
+    color: #fff;
+    margin-top: 40px;
+    height:21%;
+}
 
 
 
