@@ -75,8 +75,7 @@ function redraw(animation){
 			}
 		]
 	} 
-
-
+	
 	var canvas = document.getElementById("hours");
 	var ctx= canvas.getContext("2d");
 	new Chart(ctx1).Line(data, options); */
