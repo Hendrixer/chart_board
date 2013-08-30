@@ -21,13 +21,11 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-color: lightgrey;
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -52,10 +50,7 @@ hr {
     padding: 0;
 }
 
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
+
 
 audio,
 canvas,
@@ -103,6 +98,10 @@ html, body {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #666;
+}
+
+h1 {
+    color: lightgrey;
 }
 /* button */
 .button {
