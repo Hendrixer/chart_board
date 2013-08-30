@@ -484,7 +484,8 @@ footer {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
+        color: white;
     }
 
     a[href]:after {
